@@ -1,4 +1,6 @@
-class UserForm extends FormValidator {
+import FormValidator from './FormValidator';
+
+export default class UserForm extends FormValidator {
   constructor(form, errorMessages) {
     super(form, errorMessages);
     this.userNameField = this.form.elements.name;

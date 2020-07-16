@@ -1,4 +1,6 @@
-class ImagePopup extends Popup {
+import Popup from './Popup';
+
+export default class ImagePopup extends Popup {
   constructor(popup, modifier) {
     super(popup, modifier);
     this.imageContainer = this.popup.querySelector(".image-popup__image");

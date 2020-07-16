@@ -6,13 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Mesto</title>
-  <link rel="stylesheet" href="./pages/index.css" />
 </head>
 
 <body>
   <div class="root">
     <header class="header root__section">
-      <img src="./images/logo.svg" alt="mesto logo" class="logo" />
+      <img src="<%=require('./images/logo.svg')%>" alt="mesto logo" class="logo" />
     </header>
     <div class="profile root__section">
       <div class="user-info">
@@ -34,7 +33,7 @@
     <!-- Попап для добавления новой карточки -->
     <div class="popup add-card-popup">
       <div class="popup__content">
-        <img src="./images/close.svg" alt="" class="popup__close" />
+        <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close" />
         <h3 class="popup__title">Новое место</h3>
         <form class="popup__form add-card-form" name="card" novalidate>
           <input type="text" name="place" id="add-name" class="popup__input popup__input_type_name"
@@ -53,7 +52,7 @@
     <!-- Попап для редактирования информации о пользователе -->
     <div class="popup user-data-popup">
       <div class="popup__content">
-        <img src="./images/close.svg" alt="" class="popup__close" />
+        <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close" />
         <h3 class="popup__title">Редактировать профиль</h3>
         <form class="popup__form user-data-form" name="user" novalidate>
           <input type="text" name="name" id="user-name" class="popup__input" placeholder="Имя" required minlength="2"
@@ -72,7 +71,7 @@
     <!-- Попап для изображения -->
     <div class="popup image-popup">
       <div class="image-popup__content">
-        <img src="./images/close.svg" alt="" class="popup__close" />
+        <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close" />
         <img class="image-popup__image" />
       </div>
     </div>
@@ -80,7 +79,7 @@
     <!-- Попап для аватара пользователя -->
     <div class="popup user-avatar-popup">
       <div class="popup__content">
-        <img src="./images/close.svg" alt="" class="popup__close" />
+        <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close" />
         <h3 class="popup__title">Обновить аватар</h3>
         <form class="popup__form user-avatar-form" name="avatar" novalidate>
           <input type="url" name="avatar" id="avatar-link" class="popup__input popup__input_type_name"
@@ -130,23 +129,6 @@
 
   </div>
 
-  <script src="js/formErrorMessages.js"></script>
-  <script src="js/config.js"></script>
-  <script src="js/Api.js"></script>
-  <script src="js/Card.js"></script>
-  <script src="js/CardList.js"></script>
-  <script src="js/Popup.js"></script>
-  <script src="js/PopupWithForm.js"></script>
-  <script src="js/ImagePopup.js"></script>
-  <script src="js/MessagePopup.js"></script>
-  <script src="js/ConfirmDeletePopup.js"></script>
-  <script src="js/UserInfo.js"></script>
-  <script src="js/FormValidator.js"></script>
-  <script src="js/NewCardForm.js"></script>
-  <script src="js/UserForm.js"></script>
-  <script src="js/UserAvatarForm.js"></script>
-  <script src="js/script.js"></script>
 </body>
 
 </html>
-

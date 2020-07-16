@@ -1,4 +1,6 @@
-class ConfirmDeletePopup extends Popup {
+import Popup from './Popup';
+
+export default class ConfirmDeletePopup extends Popup {
   constructor(popup, modifier) {
     super(popup, modifier);
     this.deleteBtn = this.popup.querySelector(".confirm-delete-popup__yes-btn");
