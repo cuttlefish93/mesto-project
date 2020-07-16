@@ -1,0 +1,8 @@
+.confirm-delete-popup__no-btn {
+  background-color: #000;
+  display: inline-block;
+  width: 40%;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 1px solid #000;
+}

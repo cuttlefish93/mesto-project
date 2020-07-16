@@ -1,0 +1,22 @@
+.user-info__photo {
+  width: 150px;
+  height: 150px;
+  min-width: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: ease .5s;
+  background-position: center;
+  background-size: cover;
+}
+
+.user-info__photo:hover {
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, .5);
+  transition: ease .5s;
+}
+
+@media screen and (max-width: 980px) {
+  .user-info__photo {
+    margin-top: 40px;
+  }
+}

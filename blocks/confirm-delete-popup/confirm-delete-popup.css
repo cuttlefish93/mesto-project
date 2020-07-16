@@ -1,0 +1,10 @@
+@import url(./__title/confirm-delete-popup__title.css);
+@import url(./__btn-container/confirm-delete-popup__btn-container.css);
+@import url(./__yes-btn/confirm-delete-popup__yes-btn.css);
+@import url(./__no-btn/confirm-delete-popup__no-btn.css);
+
+.confirm-delete-popup .popup__content {
+  width: 400px;
+  min-height: 200px;
+  padding: 50px 25px;
+}

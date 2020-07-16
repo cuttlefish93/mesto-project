@@ -1,0 +1,6 @@
+.confirm-delete-popup__btn-container {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  width: 100%;
+}
