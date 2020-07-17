@@ -4,3 +4,5 @@ const errorMessages = {
 	wrongUrl: "Здесь должна быть ссылка",
 	wrongPattern: "Введите данные в верном формате",
 };
+
+export { errorMessages };

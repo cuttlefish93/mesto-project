@@ -1,4 +1,6 @@
-class PopupWithForm extends Popup {
+import Popup from './Popup';
+
+export default class PopupWithForm extends Popup {
   constructor(popup, modifier, resetForm) {
     super(popup, modifier);
     this.resetForm = resetForm;

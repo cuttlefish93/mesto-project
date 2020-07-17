@@ -1,4 +1,6 @@
-class MessagePopup extends Popup {
+import Popup from './Popup';
+
+export default class MessagePopup extends Popup {
   constructor(popup, modifier) {
     super(popup, modifier);
     this.messageTitle = this.popup.querySelector(".popup__title");

@@ -1,4 +1,6 @@
-class NewCardForm extends FormValidator {
+import FormValidator from './FormValidator';
+
+export default class NewCardForm extends FormValidator {
   constructor(form, errorMessages) {
     super(form, errorMessages);
     this.cardNameField = this.form.elements.place;

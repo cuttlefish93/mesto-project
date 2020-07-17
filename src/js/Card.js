@@ -1,4 +1,4 @@
-class Card {
+export default class Card {
   constructor(
     template, //Шаблон карточки
     openImagePopup, //Метод класса ImagePopup для открытия попапа с изображением
